@@ -21,7 +21,7 @@
 			};
 		},
 		onLoad() {
-			this.getNewimg()
+			this.getNewimg();
 		},
 		methods: {
 			getNewimg() {
