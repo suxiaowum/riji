@@ -16,6 +16,8 @@ _vue.default.use(_uviewUi.default);
 _App.default.mpType = 'app';
 _vue.default.prototype.APP_ID = 'tamx8gspkrhmltgk';
 _vue.default.prototype.APP_SECRET = 'RHVVdkJYaEw2UlBDMCthcm8yclNKQT09';
+var mpShare = __webpack_require__(/*! ./static/mpShare.js */ 40);
+_vue.default.mixin(mpShare);
 var app = new _vue.default(_objectSpread({},
 _App.default));
 

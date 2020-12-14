@@ -1,10 +1,11 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/login/login",
     "pages/dailyword/dailyword",
+    "pages/zhangben/zhangben",
+    "pages/login/login",
     "pages/jokes/jokes",
-    "pages/imgBox/imgBox"
+    "pages/imgBox/imgBox",
+    "pages/jizhang/jizhang"
   ],
   "subPackages": [],
   "window": {
@@ -20,15 +21,15 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/dailyword/dailyword",
-        "iconPath": "static/a.png",
-        "selectedIconPath": "static/a.png",
+        "pagePath": "pages/zhangben/zhangben",
+        "iconPath": "static/b.png",
+        "selectedIconPath": "static/b.png",
         "text": "昨天"
       },
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/b.png",
-        "selectedIconPath": "static/b.png",
+        "pagePath": "pages/dailyword/dailyword",
+        "iconPath": "static/a.png",
+        "selectedIconPath": "static/a.png",
         "text": "今天"
       },
       {
@@ -39,5 +40,11 @@
       }
     ]
   },
-  "usingComponents": {}
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取天气"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap44.json"
 }

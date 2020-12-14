@@ -61,9 +61,10 @@
 					this.clickNum++
 					this.$u.toast(`再点${5-this.clickNum}次有惊喜哦`)
 				} else {
-					uni.navigateTo({
-						url: '../imgBox/imgBox'
-					})
+					// uni.navigateTo({
+					// 	url: '../imgBox/imgBox'
+					// })
+					this.$u.toast('啥也没有，嘻嘻嘻')
 				}
 
 			}

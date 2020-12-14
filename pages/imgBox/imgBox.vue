@@ -1,9 +1,10 @@
 <template>
 	<view>
 		<view class="top" @click="show = true">
-			<u-image v-if="show" width="100%" height="700" :src="src" mode="aspectFit">
+			<!-- <u-image v-if="show" width="100%" height="700" :src="src" mode="aspectFit">
 				<u-loading slot="loading"></u-loading>
-			</u-image>
+			</u-image> -->
+			不让放
 		</view>
 		<view class="btnBox">
 			<u-button @click='getNewimg' type="success" shape="circle" size="medium">换一张</u-button>
@@ -21,7 +22,7 @@
 			};
 		},
 		onLoad() {
-			this.getNewimg();
+			// this.getNewimg();
 		},
 		methods: {
 			getNewimg() {

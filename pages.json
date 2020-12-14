@@ -3,14 +3,31 @@
 		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "历史上的今天",
+		// 		"navigationBarBackgroundColor": "#fff",
+		// 		"navigationBarTextStyle": "black"
+		// 	}
+		// }, 
 		{
-			"path": "pages/index/index",
+			"path": "pages/dailyword/dailyword",
 			"style": {
-				"navigationBarTitleText": "历史上的今天",
-				"navigationBarBackgroundColor": "#fff",
-				"navigationBarTextStyle": "black"
+				"navigationBarTitleText": "每日一句",
+				"enablePullDownRefresh": false
 			}
-		}, {
+
+		},
+		{
+			"path": "pages/zhangben/zhangben",
+			"style": {
+				"navigationBarTitleText": "账本",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录",
@@ -20,30 +37,29 @@
 		}
 
 		, {
-			"path": "pages/dailyword/dailyword",
-			"style": {
-				"navigationBarTitleText": "每日一句",
-				"enablePullDownRefresh": false
-			}
-
-		}, {
 			"path": "pages/jokes/jokes",
 			"style": {
 				"navigationBarTitleText": "每日一笑",
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/imgBox/imgBox",
+			"style": {
+				"navigationBarTitleText": "宝藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/jizhang/jizhang",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	    ,{
-            "path" : "pages/imgBox/imgBox",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "宝藏",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -56,14 +72,14 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
+				"pagePath": "pages/zhangben/zhangben",
+				"iconPath": "static/b.png",
+				"selectedIconPath": "static/b.png",
+				"text": "昨天"
+			}, {
 				"pagePath": "pages/dailyword/dailyword",
 				"iconPath": "static/a.png",
 				"selectedIconPath": "static/a.png",
-				"text": "昨天"
-			}, {
-				"pagePath": "pages/index/index",
-				"iconPath": "static/b.png",
-				"selectedIconPath": "static/b.png",
 				"text": "今天"
 			},
 			{
