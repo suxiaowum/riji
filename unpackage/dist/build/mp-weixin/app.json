@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/dailyword/dailyword",
+    "pages/zhangben/zhangben",
+    "pages/login/login",
+    "pages/jokes/jokes",
+    "pages/imgBox/imgBox",
+    "pages/jizhang/jizhang"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00FFCC",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/zhangben/zhangben",
+        "iconPath": "static/b.png",
+        "selectedIconPath": "static/b.png",
+        "text": "昨天"
+      },
+      {
+        "pagePath": "pages/dailyword/dailyword",
+        "iconPath": "static/a.png",
+        "selectedIconPath": "static/a.png",
+        "text": "今天"
+      },
+      {
+        "pagePath": "pages/jokes/jokes",
+        "iconPath": "static/c.png",
+        "selectedIconPath": "static/c.png",
+        "text": "明天"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取天气"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" class="top" bindtap="__e">不让放</view><view class="btnBox"><u-button vue-id="7e1b2500-1" type="success" shape="circle" size="medium" data-event-opts="{{[['^click',[['getNewimg']]]]}}" bind:click="__e" bind:__l="__l" vue-slots="{{['default']}}">换一张</u-button></view></view>
